@@ -1,0 +1,37 @@
+.container {
+    line-height: 1.5;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    border: 1px solid;
+    border-color: gray;
+}
+
+h2 {
+    color: #006EB6;
+    font-size: 18px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    /* border-bottom: 2px solid;
+    border-color: lightgray; */
+    letter-spacing: 3px;
+}
+
+p {
+    padding-top: 50px;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding: 25px;
+}
