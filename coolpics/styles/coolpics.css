@@ -1,0 +1,24 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+/* Element Selectors */
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: purple;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+nav a {
+    color: white;
+}
+/* Class Selectors */
+
+/* ID Selectors */
