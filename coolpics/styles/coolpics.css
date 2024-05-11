@@ -12,6 +12,13 @@
   --secondary-font: Mooli, san-serif;
 }
 
+/* Media Queries */
+@media screen and (min-width: 700px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 /* Element Selectors */
 main {
   font-family: Arial, Helvetica, sans-serif;
