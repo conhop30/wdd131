@@ -1,24 +1,55 @@
 /* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+:root {
+  --primary-color: #52489c;
+  --secondary-color: #59c3c3;
+  --accent-color: #f45b69;
+  --text-dark: #333;
+  --text-light: #ebebeb;
+  --primary-font: Arial, Helvetica, sans-serif;
+  --secondary-font: Mooli, san-serif;
+}
+
 /* Element Selectors */
 main {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 1.2em;
+}
+
+header,
+h1,
+h2,
+button {
+  text-align: center;
+  font-family: "Mooli", sans-serif;
 }
 
 header {
-    background-color: purple;
-    position: relative;
+  background-color: var(--primary-color);
 }
 
 img {
-    max-width: 100%;
-    object-fit: cover;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 nav a {
-    color: white;
+  color: white;
 }
+
+button {
+  background-color: var(--primary-color);
+  border: 0;
+  color: white;
+  font-size: large;
+}
+
 /* Class Selectors */
 
 /* ID Selectors */
