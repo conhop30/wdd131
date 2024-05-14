@@ -12,42 +12,15 @@
   --secondary-font: Mooli, san-serif;
 }
 
-/* Media Queries */
-@media screen and (min-width: 700px) {
-  .gallery {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 /* Element Selectors */
-main {
-  font-family: Arial, Helvetica, sans-serif;
+a {
+  text-decoration: none;
+  color: white;
 }
 
 body {
   font-family: var(--primary-font);
   font-size: 1.2em;
-}
-
-header,
-h1,
-h2,
-button {
-  text-align: center;
-  font-family: "Mooli", sans-serif;
-}
-
-header {
-  background-color: var(--primary-color);
-}
-
-img {
-  max-width: 100%;
-  object-fit: cover;
-}
-
-nav a {
-  color: white;
 }
 
 button {
@@ -57,6 +30,63 @@ button {
   font-size: large;
 }
 
+footer {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+header,
+h1,
+button {
+  text-align: center;
+  font-family: "Mooli", sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgrey;
+}
+
+img {
+  max-width: 100%;
+  border: solid 5px white;
+  filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.5));
+}
+
+nav {
+  padding: 0.5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
 /* Class Selectors */
 
 /* ID Selectors */
+#title {
+  color: white;
+}
+/* Media Queries */
+@media screen and (min-width: 700px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  ul {
+    flex-direction: row;
+  }
+
+  button {
+    display: none;
+  }
+}
