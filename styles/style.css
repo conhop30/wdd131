@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #EFC69B;
+}
+
+#links a {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    display: inline;
+    padding: 6em;
+}
