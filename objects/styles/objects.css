@@ -1,0 +1,14 @@
+/* Element selectors */
+article {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+}
+
+img {
+    width: 200px;
+}
+
+/* Class selectors */
+
+/* ID selectors */

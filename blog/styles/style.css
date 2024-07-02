@@ -1,0 +1,18 @@
+/* element selectors */
+header {
+    border-top: 2px solid tan;
+    border-bottom: 2px solid tan;
+}
+
+nav {
+    text-align: right;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* class selectors */
+
+/* id selectors */

@@ -1,16 +1,15 @@
-const themeSelector = document.querySelector("select");
+const themeSelector = document.getElement("select");
 
-themeSelector.addEventListener("change", (changeTheme) => {
-    changeTheme();
-})
+themeSelector.addEventListener("change", changeTheme);
 
 function changeTheme() {
     if (themeSelector == "dark") {
-        themeSelector = "dark";
+        document.getElement("body").removeClass("light");
+        document.getElement("body").addClass("dark");
     }
     else {
-        themeSelector = "light";
-        const image = document.getElementById("image");
+        document.getElement("body").removeClass("dark");
+        document.getElement("body").addClass("light");
     }
 }
 
