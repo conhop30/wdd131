@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #EFC69B;
+}
+
+#links a {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
