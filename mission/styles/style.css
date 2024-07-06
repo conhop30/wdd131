@@ -29,17 +29,19 @@ footer img {
     font-size: 20px;
 }
 
-.light {
-    background-color: white;
+.light-mode {
     color: black;
+    background-color: white;
+    border-color: black;
 }
 
-.dark {
-    background-color: #333;
-    color: white;
-}
+.dark-mode {
+    color: #fff; /* Text color for dark theme */
+    background-color: #333; /* Background color for dark theme */
+    border-color: #444; /* Border color for dark theme */
+  }
 
-.dark h2 {
+.dark-mode h2 {
     color: #A0D4ED;
 }
 

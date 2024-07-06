@@ -9,8 +9,8 @@
 	<body>
 		<header>
 			<h1>Connor's Site Plan</h1>
-			<h2>FirstName LastName</h2>
-			<h2>WDD 131-[section]</h2>
+			<h2>Connor Hopkins</h2>
+			<h2>WDD 131-01</h2>
 			<!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 131.03 -->
 		</header>
 		<main>
@@ -18,19 +18,19 @@
 			<hr />
 			<h2>Overview</h2>
 			<h3>Purpose</h3>
-			<p>Create an agent creator that allows the user to create an agent for VALORANT, a video game based on characters.</p>
+			<p>Create an agent creator that allows the user to create an agent for VALORANT, a video game based on characters with pre-designated abilities.</p>
 
 			<h3>Audience</h3>
 			<p>VALORANT players who want to create an agent but haven't had a tool built for that specific purpose.</p>
 
 			<h3>Dynamic elements</h3>
-			<p>JavaScript will be used to change the theme (light or dark mode), display an unknown amount of agents on the home screen and handle which image is displayed during the creation phase.</p>
+			<p>JavaScript will be used to display an unknown amount of agents on the home screen, handle which role image is displayed on the agent page and replaces navigation button functionality based on current navigation paths.</p>
 
 			<hr />
 			<h2>Branding</h2>
 			<h3>Website Logo</h3>
 			<!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-			<img src="#" alt="Logo image" />
+			<img src="images/logo.png" alt="Logo image" />
 			<hr />
 			<h2>Style Guide</h2>
 
@@ -42,9 +42,9 @@
 			<!-- Copy and paste the URL to your finished palette below Make sure to paste it into both spots -->
 			Palette URL:
 			<a
-				href="https://color.adobe.com/rant-color-theme-15174761/"
+				href="https://coolors.co/fd4556-000000-fffbf5-ffffff-ffffff"
 				target="_blank"
-				>https://color.adobe.com/rant-color-theme-15174761/</a
+				>https://coolors.co/fd4556-000000-fffbf5-ffffff-ffffff</a
 			>
 
 			<table class="colors">
@@ -57,10 +57,10 @@
 					</tr>
 					<!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
 					<tr>
-						<td class="primary">[#FD4556]</td>
-						<td class="secondary">[#BD3944]</td>
-						<td class="accent1">[#53212B]</td>
-						<td class="accent2">[#FFFBF5]</td>
+						<td class="primary">#FD4556</td>
+						<td class="secondary">#000</td>
+						<td class="accent1">#FFFBF5</td>
+						<td class="accent2">#FFF</td>
 					</tr>
 				</tbody>
 			</table>
@@ -71,11 +71,11 @@
 			<!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Why did you choose what you did?  Make sure to review the list of web safe fonts at W3Schools.org as a starting point.  Think also about which of your colors above you might use for background and font colors. -->
 
 			<h4>
-				Heading Font: [Font Name here]
+				Heading Font: Bebas Neue
 				<!-- change this -->
 			</h4>
 			<h4>
-				Paragraph Font: [Font Name here]
+				Paragraph Font: Palanquin Light 300
 				<!-- change this -->
 			</h4>
 			<h3>Normal paragraph example</h3>
@@ -102,35 +102,50 @@
 			<!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
 			<nav>
 				<a href="#">Home</a>
-				<a href="#">Page2</a>
-				<a href="#">Page3</a>
+				<a href="#">Create</a>
 			</nav>
 			<hr />
 
 			<h2>Content</h2>
 			<h3>Home page</h3>
 			<p>[content, images, data for the home page]</p>
-			<h3>[Page 2]</h3>
-			<p>[content, images, data for the subpage]</p>
-			<h2>Wireframes</h2>
-			<p>
-				Create two wireframes for your site. One for each page and list them
-				here
-			</p>
 
+			<h3>Create page</h3>
+			<p>[content, images, data for the subpage]</p>
+
+			<h3>View page</h3>
+			<p>[content, images, data for the subpage]</p>
+
+			<h2>Wireframes</h2>
 			<h3>Home</h3>
 			<p>
-				[Any additional details about home that the wireframe does not make
-				clear]
+				If there are more agents than can fit on the screen, scrolling down shows more.
 			</p>
-			<img src="#" alt="home page wireframe" />
-
-			<h3>[Page 2]</h3>
 			<p>
-				[Any additional details about page 2 that the wireframe does not make
-				clear]
+				Home is referred to as "Gallery" elsewhere.
 			</p>
-			<img src="#" alt="page 2 wireframe" />
+			<img src="images/mobile-home-wireframe.png" alt="home page wireframe" />
+
+			<h3>Create</h3>
+			<p>
+				The buttons on the bottom function as a navigation bar that is dynamic. When A page is loaded, the previous page is placed into the new pages old navigation button.
+			</p>
+			<img src="images/mobile-create-agent-wireframe.png" alt="Wireframe for the mobile agent page">
+			<img src="images/mobile-create-role-wireframe.png" alt="Wireframe for the mobile role page">
+			<img src="images/mobile-create-bio-wireframe.png" alt="Wireframe for the mobile bio page">
+			<img src="images/mobile-create-abilities-wireframe.png" alt="Wireframe for the mobile abilities page">
+
+			<h3>View</h3>
+			<p>
+				A page that is accessed through the home page. A page to look at an agent without the capability to edit it.
+			</p>
+			<p>
+				The initial page is the image of the agent. The wireframe shows what it looks like after scrolling down.
+			</p>
+			<p>
+				The smaller images lined on the right side of the screen are the abilities. Clicking on them will replace the ability name and description with the correlated ability information.
+			</p>
+			<img src="images/mobile-view-wireframe.png" alt="view page wireframe" />
 		</main>
 	</body>
 </html>
