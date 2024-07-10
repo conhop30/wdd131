@@ -22,11 +22,17 @@
         </nav>
     </header>
     <main>
-        <input type="text" placeholder="Agent Name...">
-        <div class="image-upload">
-            <img src="placeholder.jpg" alt="Upload Image">
-            <input type="file" name="myImage">
-          </div>
+        <select id="roleSelect">
+            <option value="">Select Role</option>
+            <option value="CONTROLLER">Controller</option>
+            <option value="DUELIST">Duelist</option>
+            <option value="INITIATOR">Initiator</option>
+            <option value="SENTINEL">Sentinel</option>
+          </select>
+
+          <section id="role-select">
+            <div class="role-container"></div>
+          </section>
     </main>
 </body>
 </html>
