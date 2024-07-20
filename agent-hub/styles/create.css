@@ -92,15 +92,6 @@ nav a:hover {
 }
 
 /* Class Selector */
-.agent-panel h3 {
-    background-color: var(--secondary-color);
-    text-align: center;
-}
-
-.agent-panel img, h3 {
-    max-width: 100%;
-}
-
 .image-upload {
     width: 200px; /* Adjust width and height as needed */
     height: 200px;
@@ -125,7 +116,3 @@ nav a:hover {
 }
 
 /* ID Selector */
-#gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
