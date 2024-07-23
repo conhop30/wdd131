@@ -271,6 +271,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // Add the agent image
       const img = document.createElement("img");
+      img.classList.add("agent-image");
       img.setAttribute("src", agent.image);
       img.setAttribute("alt", "Hero image for " + agent.name);
       section.appendChild(img);
@@ -288,6 +289,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Add the agent ability images
       for (let i = 0; i < ABILITY_COUNT; i++) {
         const div = document.createElement("div");
+        div.classList.add("ability-image");
         const abilityKey = `ability${i + 1}`;
         div.innerHTML = `<img src="${agent.abilityImages[abilityKey]}" alt="${agent.abilityDescriptions[abilityKey]}">`;
         section.appendChild(div);
@@ -296,18 +298,18 @@ document.addEventListener("DOMContentLoaded", function() {
       // Add the agent ability descriptions
       for (let i = 0; i < ABILITY_COUNT; i++) {
         const div = document.createElement("div");
-        
+        div.classList.add("ability-description");
         const abilityKey = `ability${i + 1}`;
         div.textContent = agent.abilityDescriptions[abilityKey];
         section.appendChild(div);
       }
 
       // Append section to the view container
-      const viewContainer = document.getElementById("view-container");
+      const viewContainer = document.getElementById("view");
       if (viewContainer) {
         viewContainer.appendChild(section);
       } else {
-        console.error('#view-container not found!');
+        console.error('#view not found!');
       }
     } else {
       console.error(`Agent '${agentName}' not found!`);
